@@ -51,18 +51,16 @@
     <td width="50%" valign="top">
 
 ## Research Projects
-### SureFire Core Database Development
+### SureFire Project Development
 *Core Developer | Jan 2023 - Present*
-- Designed and implemented a Docker-based core database system for managing building information, geometric data, and AI models
+- Designed and implemented a Docker-based core database system for building information and fire safety management
+- Developed BIM file parser to extract and store complex building geometrical data into structured database
 - Architected database schema including 11 key tables (BuildingInformation, Room, Wall, Opening, etc.) with complex relationships
-- Developed comprehensive database initialization and deployment documentation ensuring system portability
-- Implemented efficient data storage and query functionality using MySQL for complex spatial information management
+- Built Redis-based platform for real-time sensor data collection and transmission
+- Integrated pre-trained AI models for fire scenario prediction and risk assessment
+- Implemented efficient data storage and query functionality using MySQL for spatial information management
+- Created comprehensive system documentation for database initialization and deployment
 
-### Surveillance Programme of Optimal Control of Chemical Circulation based on RFID
-*Project Lead | Oct 2020 - Dec 2020*
-- Designed system architecture and led development team
-- Implemented core programming components
-- Managed project timeline and deliverables
 
 ## Professional Experience
 ### PhD Researcher | The Hong Kong Polytechnic University
@@ -83,17 +81,10 @@
 - Collaborated with cross-functional teams
 
 ## Research Interests
-- Software Testing and Verification
-  * Test Oracle Design
-  * Fault Localization
-- Artificial Intelligence Testing
-  * Reinforcement Learning
-  * Deep Learning Systems
-- Cyber-Physical Systems
-  * Control-CPS Software
-  * Building Information Systems
-- Control Theory
-  * Lyapunov Stability
+- Software Testing and Verification: Test Oracle Design, Fault Localization
+- Artificial Intelligence Testing: Reinforcement Learning, Deep Learning Systems
+- Cyber-Physical Systems: Control-CPS Software, Building Information Systems
+- Control Theory: Lyapunov Stability
 
     </td>
  </tr>
