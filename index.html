@@ -13,10 +13,27 @@
             padding: 20px;
             color: #333;
         }
+        .header-container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header-text {
+            flex-grow: 1;
+        }
         h1 {
             color: #2c3e50;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
+            margin: 0 0 10px 0;
         }
         h2 {
             color: #2c3e50;
@@ -60,12 +77,27 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
         }
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>ZHANG Shiyu</h1>
-    <div class="contact">
-        Email: ian.sy.zhang@outlook.com | Tel: +86 13625201599
+    <div class="header-container">
+        <img src="profile.jpeg" alt="Profile Photo" class="profile-image">
+        <div class="header-text">
+            <h1>ZHANG Shiyu</h1>
+            <div class="contact">
+                Email: ian.sy.zhang@outlook.com | Tel: +86 13625201599
+            </div>
+        </div>
     </div>
 
     <section class="section">
