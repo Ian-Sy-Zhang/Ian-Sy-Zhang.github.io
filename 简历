@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张士煜 - 学术简历</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header-text {
+            flex-grow: 1;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin: 0 0 10px 0;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 25px;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #34495e;
+        }
+        .contact {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .publication {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .project {
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .experience-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="header-text">
+            <h1>张士煜</h1>
+            <div class="contact">
+                电子邮件: ian.sy.zhang@outlook.com | 电话: +86 13625201599
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <h2>教育背景</h2>
+        <ul>
+            <li><strong>香港理工大学</strong> (2021 - 至今)
+                <ul>
+                    <li>计算机软件工程博士研究生</li>
+                    <li>研究方向：信息物理系统、软件工程、人工智能测试</li>
+                </ul>
+            </li>
+            <li><strong>南京大学</strong> (2017 - 2021)
+                <ul>
+                    <li>软件工程学士学位</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>发表论文与研究成果</h2>
+        <h3>已发表论文</h3>
+        <div class="publication">
+            <div class="publication-title">1. A Comparison of transformer and AR-SI Oracle For Control-CPS Software Fault Localization</div>
+            <div><em>IEEE International Conference on Real-Time Computing Systems and Applications (RTCSA), 2023</em></div>
+            <div>作者: Shiyu Zhang, Wenxia Liu, Qixin Wang, Lei Bu, Yu Pei</div>
+        </div>
+        <div class="publication">
+            <div class="publication-title">2. Fuzzy Logic Guided Reward Function Variation: An Oracle for Testing Reinforcement Learning Programs</div>
+            <div><em>arXiv preprint</em></div>
+            <div>作者: Shiyu Zhang, Haoyang Song, Qixin Wang, Yu Pei</div>
+        </div>
+
+        <h3>在审论文</h3>
+        <div class="publication">
+            <div class="publication-title">A Test Oracle for Reinforcement Learning Software based on Lyapunov Stability Control Theory</div>
+            <div><em>正在处理，已经被接收 International Conference on Software Engineering (ICSE) 2025</em></div>
+            <div>作者: Shiyu Zhang, Haoyang Song, Qixin Wang, Henghua Shen, Yu Pei</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>研究项目与工作经历</h2>
+        <div class="project">
+            <div class="experience-header">智慧消防项目开发 | 核心开发者 | 2023年1月 - 至今</div>
+            <ul>
+                <li>设计并实现基于Docker的建筑信息和消防安全管理核心数据库系统</li>
+                <li>开发BIM文件解析器，提取并存储复杂建筑几何数据到结构化数据库</li>
+                <li>构建基于Redis的实时传感器数据采集和传输平台</li>
+                <li>集成预训练AI模型用于火灾场景预测和风险评估</li>
+                <li>编写完整的数据库初始化和部署文档</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">博士研究员 | 香港理工大学 | 2021年9月 - 至今</div>
+            <ul>
+                <li>开展人工智能测试和信息物理系统研究</li>
+                <li>开发强化学习程序的新型测试方法</li>
+                <li>研究控制类信息物理系统软件的故障定位技术</li>
+                <li>将控制理论应用于软件测试问题</li>
+            </ul>
+        </div>
+
+        <h3>行业经验</h3>
+        <ul>
+            <li><strong>软件工程师</strong> | 招商银行信用卡中心 | 2020年6月 - 2020年7月</li>
+            <li><strong>软件开发工程师</strong> | 任拓科技 | 2020年10月 - 2020年12月</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>技术技能与研究兴趣</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>技术技能</h3>
+                <ul>
+                    <li><strong>编程语言：</strong>Java, Python, SpringBoot, TensorFlow, PyTorch</li>
+                    <li><strong>系统工具：</strong>MySQL, Docker, Linux, Git, LaTeX</li>
+                    <li><strong>专业技能：</strong>强化学习、测试用例设计、李雅普诺夫稳定性理论</li>
+                </ul>
+            </div>
+            <div>
+                <h3>研究兴趣</h3>
+                <ul>
+                    <li><strong>软件测试：</strong>测试用例设计、故障定位</li>
+                    <li><strong>人工智能测试：</strong>强化学习、深度学习系统</li>
+                    <li><strong>信息物理系统：</strong>控制类信息物理系统软件、建筑信息系统</li>
+                    <li><strong>控制理论：</strong>李雅普诺夫稳定性</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>语言能力</h2>
+        <div>中文（母语） | 英语（职业工作水平） | 粤语（基础）</div>
+    </section>
+</body>
+</html>
