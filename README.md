@@ -18,9 +18,8 @@ Email: ian.sy.zhang@outlook.com | Tel: +86 13625201599
    - *arXiv preprint*
    - Authors: Shiyu Zhang, Haoyang Song, Qixin Wang, Yu Pei
 
-### Under Processing
-- **A Test Oracle for Reinforcement Learning Software based on Lyapunov Stability Control Theory**
-  - *Has been accepted by International Conference on Software Engineering (ICSE) 2025*
+3. **A Test Oracle for Reinforcement Learning Software based on Lyapunov Stability Control Theory**
+  - *International Conference on Software Engineering (ICSE) 2025*
   - Authors: Shiyu Zhang, Haoyang Song, Qixin Wang, Henghua Shen, Yu Pei
  
 ## Research Projects & Experience
